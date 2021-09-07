@@ -1,17 +1,21 @@
-#include"main.h"
+#include "main.h"
 /**
- *puts - prints character of a string followed by new line using while loop
- *@str: string whose character will be printed
- *Return: Always 0
+ * puts2 - func that prints 1 char/2 of a string, followed by a new line.
+ * @str: declaration of str and paramters for the function puts2
+ * Return: Always 0.
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int c;
+	char l;
 
-	while (str)
+	for (c = 0; str[c] != 0; c++)
 	{
-		_putchar(str[i]);
-		_putchar('\n');
-		i++;
+		if (c % 2 == 0)
+		{
+			l = str[c];
+			_putchar(l);
+		}
 	}
+	_putchar('\n');
 }
