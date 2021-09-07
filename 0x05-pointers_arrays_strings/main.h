@@ -2,6 +2,5 @@
 #define HEADER_FILE
 
 void reset_to_98(int *n);
-size_t _strlen(const char *str)
 void swap_int(int *a, int *b);
 #endif
