@@ -1,1 +1,3 @@
-C Functions and nested loops
+Function
+Header files ; prototypes
+C header files
