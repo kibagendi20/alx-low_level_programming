@@ -1,3 +1,1 @@
-Function
-Header files ; prototypes
-C header files
+0x02. C - Functions, nested loops
