@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  *main - prints _putchar
  *Desription: the programs _putchar one letter after the other
