@@ -2,3 +2,4 @@
 void print_alphabet(void) - prints the alphabet in lowercase followed by a new line
 void print_alphabet_x10 - prints 10 times alphabets in lowercase
 int add(int, int) - adds two integers and returns the result
+int print_last_digit(int) - prints the last digit of a number
