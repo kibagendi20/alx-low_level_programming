@@ -6,4 +6,5 @@ int print_last_digit(int) - prints the last digit of a number
 int _islower(int c) - checks for lowercase character.
 int _isalpha(int c) - checks for alphabetic character
 int print_sign(int n) - prints the sign of a number
+int _abs(int) - computes the absolute value of an integer 
 
